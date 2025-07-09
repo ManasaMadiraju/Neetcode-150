@@ -1,5 +1,5 @@
 class Solution:
-    def contains_duplicate(Sself, nums):
+    def contains_duplicate(self, nums):
         hashset = set()
 
         for n in nums:
