@@ -1,5 +1,5 @@
 class Solution:
-    def contains_duplicate(self, nums):
+    def duplicate(Sself, nums):
         hashset = set()
 
         for n in nums:
@@ -7,11 +7,7 @@ class Solution:
                 return True
             hashset.add(n)
         return False
-    
 
 if __name__ == '__main__':
-    nums = [2,3,4,3,1,6]
-    print(Solution().contains_duplicate(nums))
-   
-   
-
+    nums = [1,2,3,4]
+    print(Solution().duplicate(nums))
